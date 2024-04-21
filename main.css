@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e3cb9b;
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+header{
+    display: grid;
+    justify-content: center;
+    font-size: 20px;
+}
+h1{
+    padding-bottom: 10px;
+    margin: auto;
+}
+h3{
+    padding: 5px;
+}
+.container{
+    font-size: 18px;
+    padding-top: 165px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+form{
+    display:flex;
+    justify-content: center;
+    margin:auto;
+    padding:5px;
+    height: 38px;
+}
+input{
+    margin-right: 3px;
+}
+input[type="text"]{
+    height: 25px;
+    padding-left: 6px;
+    background-color: #553b2e59;
+    border:#000;
+    outline: 1px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-size: 14px;
+}
+input[type="tel"]{
+    height: 25px;
+    padding-left: 6px;
+    background-color: #553b2e59;
+    border:#000;
+    outline: 1px;
+    border-left: 1px solid #000;
+    border-bottom: 1px solid #000;
+    font-size: 14px;
+}
+.info{
+    display: block;
+}
+button{
+    width: 60px;
+    height: 25px;
+    border: none;
+    outline: none;
+    background-color: #5c784a;
+    color: #000;
+}
+button:focus{
+    border:1px none;
+    border-style: none;
+    outline-style:none;
+}
+button:hover{
+    background-color: #485f3a;
+    border: 2px solid #0a2753b6;
+}
+input:focus{
+    border:1px #070630;
+    border-style: groove;
+    outline-style:ridge;
+}
+
+.tabela{
+    display: contents;
+}
+table{
+    display: none;
+    margin-top: 15px;
+    border: 2px solid #000;
+    background-color: #345f329c;
+    border-style: groove;
+    border: 1px solid ;
+}
+table th{
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 2px solid #000;
+    padding: auto 5px;
+    width: 160px;
+    background-color: #345f32c4;
+}
+table td{
+    font-size: 16px;
+    padding-bottom: 6px;
+    padding-left: 13px;
+    padding-top: 4px;
+    background-color: #345f329c;
+}
+#lColumn{
+    border-right: 2px solid #000;
+    background-color: #345f329c;
+}
+

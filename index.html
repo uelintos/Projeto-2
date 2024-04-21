@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Minha agenda</h1>
+            <h3>Preencha os campos abaixo para adicionar as informações necessárias</h3>
+        </header>
+        <form id="formulario">
+            <div class="info" id="form">
+            <label for="text">Nome</label>
+            <input type="text" name="nome" id="name" value="" required>
+            <label for="tel">Número</label>
+            <input type="tel" name="telefone" id="telphone" value="" required>
+            <button type="submit" id="btn" onclick="e()">+Add</button>
+            </div>
+        </form>
+        <div class="tabela">
+            <table cellspacing="0" id="table">
+                <thead>
+                    <tr>
+                        <th style="border-right: 2px solid #000;">Nomes</th>
+                        <th>Números</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                    </tr>
+                    <tr id="checkbox">
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
